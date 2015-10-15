@@ -1,0 +1,48 @@
+/* Empty. Add your own CSS if you like */
+
+/* CSS for placeholder text on homepage searchbox */
+#homeSearchBox::-webkit-input-placeholder {
+	color: #f9998e;
+}
+#homeSearchBox::-moz-placeholder {
+	color: #b03123;
+}
+#homeSearchBox:-moz-placeholder {   /* Older versions of Firefox */
+	color: #b03123;
+}
+#homeSearchBox:-ms-input-placeholder { 
+	color: #b03123;
+}
+
+.item.item-thumbnail-left.activated {
+  background: white !important;
+}
+
+.item-input-wrapper
+{ 
+	background-color: #DE4A18 !important;
+}
+
+.strikeThrough{
+	text-decoration: line-through;
+}
+.title
+{
+	color:black !important;
+}
+.button
+{
+	color:black !important;
+}
+.icon-right, .ion-android-arrow-dropdown
+{
+	font-size:14px !important;
+}
+.title-center
+{
+	right:0px !important;
+}	
+#locationDiv .angular-google-map-container 
+{ 
+	height: 200px !important; 
+}

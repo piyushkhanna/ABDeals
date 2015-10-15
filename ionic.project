@@ -1,0 +1,12 @@
+{
+  "name": "azoobazoo",
+  "app_id": "f28cc5c9",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

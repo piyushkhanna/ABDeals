@@ -1,0 +1,82 @@
+<ion-view>
+  <ion-nav-title>
+      <span style="margin-right:30px;" ng-bind-html="ad.bizname" />
+    </ion-nav-title>
+  <ion-content>
+  <div style="width:100%; background-color:whitesmoke" ng-if="priceTag != undefined">
+
+    <div style="width:100%; margin-top:1px;">
+        <ion-slide-box  auto-play="true" does-continue="true">
+          <ion-slide ng-repeat="img in imagesMedium"> 
+            <div style="width:100%; text-align:center;">
+              <img  ng-src="{{imagesBaseURL + img.imagename}}" style="margin:auto; width:100%;" />
+            </div>
+          </ion-slide>
+        </ion-slide-box>
+    </div>
+
+    <div class="item padding-left padding-right" style="border:none;margin-top:-6px; padding-bottom:0px;">
+      <h2 style="word-wrap:break-word; font-size:18px; white-space:normal; text-transform: capitalize;" ng-bind-html="ad.title.toLowerCase()"></h2>
+      <p ng-bind-html="ad.bizname"></p>
+      <br/>
+    </div>
+   <div style="text-align:center; padding-top:0px; border-top:none !important" class="padding-left padding-right item">  
+      <span style="float:left;" ng-bind-html="priceTag"></span>  
+      <span class="item-note" style="margin-right:30px; font-size:12px; font-weight:bold; cursor:pointer;" ng-if="adData.myperfect == '0'" ng-click="markPerfect(adData,false); $event.stopPropagation();">
+        <img ng-show="adData.myperfect == '0'" src='img/perfect-in-gray.png' style="width:16px;"></img>
+        Perfect ({{adData.perfect}})
+      </span>
+      <span class="item-note positive" style="margin-right:30px;cursor:pointer; font-size:12px; font-weight:bold;" ng-if="adData.myperfect == '1'" ng-click="markPerfect(adData,true); $event.stopPropagation();">
+        <img ng-show="adData.myperfect == '1'" src='img/perfect-in-blue1.png' style="width:16px;"></img>
+        Perfect ({{adData.perfect}})
+      </span>
+    </div>    
+  
+    <div class="padding-left padding-right item" style="margin-top:10px;">
+     <h3>  Details </h3>
+      <div style="height:1px; border-top: solid 1px #ddd; margin-top:5px;"></div>
+      <p style="margin-top:5px; padding:0px;word-wrap:break-word; white-space:normal;"  ng-bind-html="ad.Description"></p>
+    </div>
+
+    <div class="padding-left padding-right item"  style="margin-top:10px; ">
+      <h3>Terms & Conditions</h3>
+      <div style="height:1px; border-top: solid 1px #ddd; margin-top:5px;"></div>
+      <p style="margin-top:5px; word-wrap:break-word; white-space:normal;" ng-if="ad.tnc != ''" ng-bind-html="ad.tnc"></p>
+      <p style="margin-top:5px;" ng-if="ad.tnc == ''">No terms and conditions provided</p>
+    </div>
+    <div id="locationDiv" class="padding-left padding-right item"  style="margin-top:10px; ">
+     <h3> Location </h3>
+      <div style="height:1px; border-top: solid 1px #ddd; margin-top:5px; margin-bottom:5px;"></div>
+      <div style="width:100%" ng-click="$state.go('app.googlemap',{'glat':ad.avail_lat,'glng':ad.avail_lng,'dispadd':ad.bizname});">
+      <ui-gmap-google-map center='map.center' options='{"draggable": false,"streetViewControl":false,"mapTypeControl":false,"zoomControl":false}'  zoom='map.zoom'> <ui-gmap-marker coords='marker.coords' options='marker.options' events='marker.events' idkey='marker.id' closeClick='hideMarkerPopup()' onClicked='showMarkerPopup()'> </ui-gmap-google-map>
+    </div>
+      <div class="padding-top padding-bottom"><h3>{{ad.bizname}}</h3><p style="word-wrap:break-word; white-space:normal;text-transform: capitalize;">{{ad.dispadd}}</p> </div>
+    </div>
+    
+
+    <div class="padding-left padding-right item" style="margin-top:10px;">
+      <h3>Contact Information</h3>
+      <div style="height:1px; border-top: solid 1px #ddd; margin-top:5px;"></div>
+      <table style="width:100%;">
+      <tr>
+      <td>
+      <a class="tab-item" ng-href="mailto:{{ad.locemail}}">
+        <i class="icon ion-email"></i>
+         {{ad.locemail}}
+      </a>
+      </td>
+      <td>
+       <a class="tab-item" ng-href="tel:{{ad.locphone}}">
+        <i class="icon ion-ios-telephone"></i>
+        <span> {{ad.locphone}}</span>
+      </a>
+      </td>
+      </tr>
+      </table>
+    </div>
+    <div style="height:40px">
+    </div>
+  </div>
+</ion-content>
+</ion-view>
+
