@@ -1,0 +1,8 @@
+C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\classes\debug
+C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-b82dea4096cbb511d7767494dafaa79065101517.jar
+C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-bec5b687f22c05f0eaff5c8e0f56bb63abfec7e6.jar
+C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\classes-581fdba1eaf14ebe7ffddc1e143404061a4af610.jar
+C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\gcm-44bc2b4537b13b2c878f8bf1cea8702edaaf6782.jar
+C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\classes-f7708901a1be6f60a0f347ee11194a7709e6379e.jar
+C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-2cea002e9f2314a90f9e35e6c353cef172b9fec6.jar
+C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\classes-65b812d7535bdf52a50c914fa8f154f0b1615d65.jar

@@ -1,0 +1,29 @@
+﻿<div ng-repeat="deal in listOfCards">
+<a class="item item-thumbnail-left" style="border-bottom:none;" ng-click ="$state.go('app.details',{'ad_id':deal.ad_id,'location_id':deal.location_id, 'adObject':deal})">
+			<img ng-src="{{deal.adimage}}" ng-if="deal.adimage.toLowerCase().indexOf('no-logo.gif') == -1">
+			<img ng-src="img/AB.jpg" ng-if="deal.adimage.toLowerCase().indexOf('no-logo.gif') != -1">
+			<h2 style="font-weight:bold; text-transform: capitalize;" ng-bind-html="deal.title.toLowerCase()"></h2>
+			<p>{{deal.busname}}</p>	
+			<p><i style="font-size:18px;" class="subdued icon ion-pricetag"></i> <span  ng-bind-html="deal.disptext" /> </p>			
+
+</a>  
+<div style="text-align:center;background-color:white;">
+<div style="border:solid 1px #EBEBEB; width:93%; margin:auto;"></div>
+</div>
+<div style="background-color:white; border-bottom:solid 1px #ddd; border-top:none; margin-bottom:7px; padding-top:4px; padding-left:5%; padding-right:10%;">
+	 <p>
+				<span style="line-height:24px; top:inherit; bottom:10%; font-size:12px;font-weight:bold;" class="item-note balanced">{{deal.distance}} Km</span>
+
+				<a style="color:gray; text-decoration:none;font-size:12px; font-weight:bold;" ng-if="deal.myperfect == '0'" href="javascript:void(0);" ng-click="markPerfect(deal,false); $event.stopPropagation();">
+					<img ng-show="deal.myperfect == '0'" src='img/perfect-in-gray.png' style="width:16px;position:relative; top:1px;"></img>
+					Perfect ({{deal.perfect}})
+				</a>
+				<a class="positive" href="javascript:void(0);" style="text-decoration:none;font-size:12px;cursor:pointer;font-weight:bold;" ng-if="deal.myperfect == '1'" ng-click="markPerfect(deal,true); $event.stopPropagation();">
+					<img ng-show="deal.myperfect == '1'" src='img/perfect-in-blue1.png' style="width:16px;position:relative; top:1px;"></img>
+					Perfect ({{deal.perfect}})
+				</a>
+
+	</p>
+
+</div>
+</div>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-2cea002e9f2314a90f9e35e6c353cef172b9fec6.jar" />
+    </item>
+    <item
+        jar="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="816b30a61f7d0c0c5ef37cd26301a7cd2281e811">
+        <dex dex="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\classes-f7708901a1be6f60a0f347ee11194a7709e6379e.jar" />
+    </item>
+    <item
+        jar="C:\Piyush\Ionic\azoobazoo\platforms\android\libs\gcm.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\gcm-44bc2b4537b13b2c878f8bf1cea8702edaaf6782.jar" />
+    </item>
+    <item
+        jar="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.0.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8c046c952177602c858ed41c8fc492c939bde9aa">
+        <dex dex="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\classes-581fdba1eaf14ebe7ffddc1e143404061a4af610.jar" />
+    </item>
+    <item
+        jar="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.0.1\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0c456a59e1edab84702b48a626705aa1d830ccc">
+        <dex dex="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-b82dea4096cbb511d7767494dafaa79065101517.jar" />
+    </item>
+    <item
+        jar="C:\Users\piyush.a.khanna\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-bec5b687f22c05f0eaff5c8e0f56bb63abfec7e6.jar" />
+    </item>
+    <item
+        jar="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="825d7ad8582666e5f5d8bd821c49f61969c55a8d">
+        <dex dex="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\release\classes-0ba6cabe7b42a8af8aef7595568b963b6547ea54.jar" />
+    </item>
+    <item
+        jar="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Piyush\Ionic\azoobazoo\platforms\android\build\intermediates\pre-dexed\debug\classes-65b812d7535bdf52a50c914fa8f154f0b1615d65.jar" />
+    </item>
+
+</items>

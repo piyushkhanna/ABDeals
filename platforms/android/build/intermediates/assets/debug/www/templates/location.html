@@ -1,0 +1,33 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-calm">
+    <h1 style="color:black !important;" class="title">Select Location</h1>
+    <div class="buttons">
+      <button style="color:black !important;" class="button button-clear" ng-click="closeLocationModal()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content style="background-color:whitesmoke">
+      <div class="list">
+        
+        <div class="item item-input">
+        <i class="icon ion-ios-search placeholder-icon calm"></i>
+        <input type="text" id="txt_LocationLookup" placeholder="Search" onFocus="this.selectionStart=0; this.selectionEnd=this.value.length;" onTouchEnd="this.selectionStart=0; this.selectionEnd=this.value.length;"onMouseUp="return false" ng-blur="showLocateMeButton()" ng-focus="disableTap();" ng-model="savedLocation"> 
+        <span  id="btnClearTextBox" style="width:40px; font-size:20px;display:none;" ng-click="clearTextBox();">
+        <i class="icon icon ion-ios-close-outline"></i>
+      </span>
+        </div>
+        <label class="item" class="hide-on-keyboard-open" style="bottom:0px;width:100%; text-align:center;">
+            <button style="width:90%;" id="btn_currentLocation" ng-click="useCurrentLocation()" class="button button-outline button-balanced"><span class="balanced"> <i class="icon ion-ios-navigate-outline"></i> Locate Me</span></button>
+        </label>
+      </div>
+      <div class="list">
+        <div id="locationMessage" class="padding item" style=" background-color:white; text-align:center; word-wrap:break-word; white-space:normal;">
+        To use device's current location, please click the "Locate Me" button Or search for your location manually above 
+       </div>
+     </div>
+     <div ng-show="isLocationNameLoading" style="text-align:center; width:100%;">
+         <ion-spinner icon="ripple"></ion-spinner><br/>
+          Please wait...
+    </div>
+     
+  </ion-content>
+</ion-modal-view>

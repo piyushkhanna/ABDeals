@@ -1,0 +1,8 @@
+﻿<ion-view>
+  <ion-nav-title>
+      <span style="margin-right:30px;" ng-bind="dispadd" />
+    </ion-nav-title>
+<ion-content>
+<ui-gmap-google-map center='map.center' options='{"streetViewControl":false,"mapTypeControl":false,"panControl":false}'  zoom='map.zoom'> <ui-gmap-marker coords='marker.coords' options='marker.options' events='marker.events' idkey='marker.id' closeClick='hideMarkerPopup()' onClicked='showMarkerPopup()'> </ui-gmap-google-map>
+</ion-content>
+</ion-view>

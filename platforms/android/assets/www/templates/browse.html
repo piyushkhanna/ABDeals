@@ -1,0 +1,31 @@
+<ion-view>
+<ion-nav-title>
+      <span style="margin-right:30px;">Browse</span>
+    </ion-nav-title>
+  <ion-content>
+   <ion-list>
+        <div class="item item-divider calm">
+          Select Category 
+        </div>
+        <div ng-repeat="category in categories">
+          <ion-item class="item-stable"
+                    ng-click="toggleGroup(category)"
+                    ng-class="{active: isGroupShown(category)}">
+              <i class="icon" ng-class="isGroupShown(category) ? 'ion-minus' : 'ion-plus'"></i>
+            &nbsp;
+            {{category.category}}
+          </ion-item>
+          <a class="item item-icon-right" ng-href="#/app/browseAds?subcatid={{item.subCatid}}&subcatName={{item.subCategory | escape}}" ng-repeat="item in category.subCategories"
+                    ng-show="isGroupShown(category)">
+            <i class="icon ion-ios-arrow-right"></i>
+            <span style="margin-left:35px"> {{item.subCategory}}</span>
+          </a>
+       
+        </div>
+      </ion-list>
+ 
+
+  <div style="height:30px">
+  </div>
+  </ion-content>
+</ion-view>

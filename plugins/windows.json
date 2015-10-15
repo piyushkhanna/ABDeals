@@ -1,0 +1,60 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "package.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<DeviceCapability Name=\"location\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<preference name=\"WindowsToastCapable\" value=\"true\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "azoobazoo"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "azoobazoo"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "azoobazoo"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "azoobazoo"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "azoobazoo"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "azoobazoo"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "azoobazoo"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "AajooBajoo Deals"
+        },
+        "phonegap-plugin-push": {
+            "PACKAGE_NAME": "AajooBajoo Deals"
+        }
+    },
+    "dependent_plugins": {}
+}

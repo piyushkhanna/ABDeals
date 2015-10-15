@@ -1,0 +1,25 @@
+﻿<ion-modal-view>
+  <ion-header-bar class="bar-calm">
+    <h1 style="color:black !important;" class="title"></h1>
+    <div class="buttons">
+      <button style="color:black !important;" ng-show="promotionObject.skipbutton == '0'" class="button button-clear" ng-click="closePromotionModal();">Skip</button>
+    </div>
+  </ion-header-bar>
+  <ion-content style="background-color:whitesmoke">
+   <div class="item item-divider" style="text-align:center">
+      <i class="ion-android-notifications-none"></i> {{promotionObject.heading}}
+   </div>
+  <div class="card">
+    <div class="item item-text-wrap">
+       <p ng-bind-html="promotionObject.message"></p>
+    </div>
+  </div>    
+  </ion-content>
+  <ion-footer-bar>
+   
+    <button class="button button-light" style="width:100%;">
+      {{promotionObject.otherbuttontext}}
+    </button>
+ 
+</ion-footer-bar>
+</ion-modal-view>

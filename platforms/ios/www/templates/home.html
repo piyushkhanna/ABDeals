@@ -1,0 +1,37 @@
+<ion-view>
+<ion-nav-title>
+<form>
+ <div style="padding-top:5px; padding-right:4px;padding-left:0px;" class="item-input-inset">
+  <div class="item-input-wrapper" style="height:33px;">
+    <i style="color:#f9998e;" class="icon ion-ios-search placeholder-icon"></i>
+    <input type="search" id="homeSearchBox" placeholder="Search" ng-enter="refreshView();" ng-model="fields.homeSearchText" style="width:95%;color:white; ">
+    <span style="cursor:pointer; font-size:20px; width:50px;color:white;"  ng-if="fields.homeSearchText != ''" ng-click="clearSearchResults('homeSearchBox');">
+    <i  class="icon ion-ios-close-outline"></i>
+    </span>
+    <!-- <i style="cursor:pointer; margin-left:10px; font-wight:bold" class="icon ion-forward" ng-click="refreshView();"></i> -->
+  </div>   
+</div>
+</form>
+</ion-nav-title>
+  <ion-content ng-style="data.reccount > 0 && {'background-color':'whitesmoke'} || {'background-color': 'white'}">
+	 <div class="list" ng-if="(data.reccount <= 0 || (data.reccount == undefined && data != undefined)) && savedLocation != undefined && apiExecuted == true && isLocationModalVisible != true && isOffline == false">
+    	<p class="padding" ng-show="fields.homeDealFilter == 0" style="text-align:center;"> 
+        <img src="img/oops-mistakes.jpg" style="width:100%;" />
+       Sorry, we couldn't find any deals for this location. We are working hard to bring the best to you from your local retailers. Stay tuned!
+      </p>
+      <p class="padding" ng-show="fields.homeDealFilter == 1" style="text-align:center;">
+       <img src="img/oops-mistakes.jpg" style="width:100%;" />
+       Sorry, we couldn't find any national deals right now. Stay tuned, we are working hard to bring more deals to you! You may look for some local deals till then. </p>
+    </div>
+	<div class="list" ng-if="data.reccount>0 && savedLocation != undefined && apiExecuted == true && isLocationModalVisible != true && isOffline == false">
+		<cards-list></cards-list>
+		<ion-infinite-scroll on-infinite="loadResults()" ng-if="moreDataCanBeLoaded()" distance="1%" immediate-check="false"></ion-infinite-scroll> 
+	</div>
+  <div style="text-align:center;" class="list padding" ng-if="isOffline == true">
+       <img src="img/oops-mistakes.jpg" style="width:100%;" />
+       Network connection unavailable! Our app requires a data connection. Please check your network settings! </p>
+  </div>
+
+  <div style="height:30px" />
+  </ion-content>
+</ion-view>

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="com.ionicframework.azoobazoo980439" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>100</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="config.xml" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/config.xml">
+				<Candidate type="Path">
+					<Value>config.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/images/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/images/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square30x30Logo.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/images/Square30x30Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square30x30Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/images/Square310x310Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square310x310Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/images/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square44x44Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/images/Square70x70Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square70x70Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/images/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square71x71Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/images/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="www">
+				<NamedResource name="cordova.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/cordova.js">
+					<Candidate type="Path">
+						<Value>www\cordova.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cordova_plugins.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/cordova_plugins.js">
+					<Candidate type="Path">
+						<Value>www\cordova_plugins.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="index.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/index.html">
+					<Candidate type="Path">
+						<Value>www\index.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logoutcallback.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/logoutcallback.html">
+					<Candidate type="Path">
+						<Value>www\logoutcallback.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="oauthcallback.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/oauthcallback.html">
+					<Candidate type="Path">
+						<Value>www\oauthcallback.html</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="cordova-js-src">
+					<NamedResource name="exec.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/cordova-js-src/exec.js">
+						<Candidate type="Path">
+							<Value>www\cordova-js-src\exec.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="platform.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/cordova-js-src/platform.js">
+						<Candidate type="Path">
+							<Value>www\cordova-js-src\platform.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="css">
+					<NamedResource name="autocomplete.css" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/css/autocomplete.css">
+						<Candidate type="Path">
+							<Value>www\css\autocomplete.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ionic.app.css" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/css/ionic.app.css">
+						<Candidate type="Path">
+							<Value>www\css\ionic.app.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ionic.app.min.css" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/css/ionic.app.min.css">
+						<Candidate type="Path">
+							<Value>www\css\ionic.app.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="style.css" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/css/style.css">
+						<Candidate type="Path">
+							<Value>www\css\style.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="img">
+					<NamedResource name="AB.jpg" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/AB.jpg">
+						<Candidate type="Path">
+							<Value>www\img\AB.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AB_Backup.jpg" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/AB_Backup.jpg">
+						<Candidate type="Path">
+							<Value>www\img\AB_Backup.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ionic.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/ionic.png">
+						<Candidate type="Path">
+							<Value>www\img\ionic.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Lighthouse.jpg" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/Lighthouse.jpg">
+						<Candidate type="Path">
+							<Value>www\img\Lighthouse.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="login_withlogo.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/login_withlogo.png">
+						<Candidate type="Path">
+							<Value>www\img\login_withlogo.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="login_withlogo1.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/login_withlogo1.png">
+						<Candidate type="Path">
+							<Value>www\img\login_withlogo1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="login_withlogo2.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/login_withlogo2.png">
+						<Candidate type="Path">
+							<Value>www\img\login_withlogo2.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="perfect-in-blue.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/perfect-in-blue.png">
+						<Candidate type="Path">
+							<Value>www\img\perfect-in-blue.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="perfect-in-blue1.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/perfect-in-blue1.png">
+						<Candidate type="Path">
+							<Value>www\img\perfect-in-blue1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="perfect-in-gray.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/perfect-in-gray.png">
+						<Candidate type="Path">
+							<Value>www\img\perfect-in-gray.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="title_merged_orange.png" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/img/title_merged_orange.png">
+						<Candidate type="Path">
+							<Value>www\img\title_merged_orange.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="js">
+					<NamedResource name="angular-google-maps.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/angular-google-maps.min.js">
+						<Candidate type="Path">
+							<Value>www\js\angular-google-maps.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="app.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/app.js">
+						<Candidate type="Path">
+							<Value>www\js\app.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="autocomplete.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/autocomplete.js">
+						<Candidate type="Path">
+							<Value>www\js\autocomplete.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="common.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/common.js">
+						<Candidate type="Path">
+							<Value>www\js\common.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="controllers.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/controllers.js">
+						<Candidate type="Path">
+							<Value>www\js\controllers.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="detailsController.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/detailsController.js">
+						<Candidate type="Path">
+							<Value>www\js\detailsController.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="directives.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/directives.js">
+						<Candidate type="Path">
+							<Value>www\js\directives.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="homeController.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/homeController.js">
+						<Candidate type="Path">
+							<Value>www\js\homeController.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery-2.1.4.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/jquery-2.1.4.min.js">
+						<Candidate type="Path">
+							<Value>www\js\jquery-2.1.4.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="locationController.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/locationController.js">
+						<Candidate type="Path">
+							<Value>www\js\locationController.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="lodash.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/lodash.js">
+						<Candidate type="Path">
+							<Value>www\js\lodash.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="loginConnector.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/loginConnector.js">
+						<Candidate type="Path">
+							<Value>www\js\loginConnector.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ng-cordova.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/ng-cordova.min.js">
+						<Candidate type="Path">
+							<Value>www\js\ng-cordova.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ng-map.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/ng-map.min.js">
+						<Candidate type="Path">
+							<Value>www\js\ng-map.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ngopenfb.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/ngopenfb.js">
+						<Candidate type="Path">
+							<Value>www\js\ngopenfb.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="oAuthController.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/oAuthController.js">
+						<Candidate type="Path">
+							<Value>www\js\oAuthController.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="openfb.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/js/openfb.js">
+						<Candidate type="Path">
+							<Value>www\js\openfb.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="lib">
+					<ResourceMapSubtree name="ionic">
+						<NamedResource name="version.json" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/version.json">
+							<Candidate type="Path">
+								<Value>www\lib\ionic\version.json</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="css">
+							<NamedResource name="ionic.css" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/css/ionic.css">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\css\ionic.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.min.css" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/css/ionic.min.css">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\css\ionic.min.css</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="fonts">
+							<NamedResource name="ionicons.eot" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/fonts/ionicons.eot">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\fonts\ionicons.eot</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionicons.svg" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/fonts/ionicons.svg">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\fonts\ionicons.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionicons.ttf" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/fonts/ionicons.ttf">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\fonts\ionicons.ttf</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionicons.woff" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/fonts/ionicons.woff">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\fonts\ionicons.woff</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="js">
+							<NamedResource name="ionic-angular.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/ionic-angular.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic-angular.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic-angular.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/ionic-angular.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic-angular.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.bundle.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/ionic.bundle.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic.bundle.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.bundle.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/ionic.bundle.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic.bundle.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/ionic.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ionic.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/ionic.min.js">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\js\ionic.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="angular">
+								<NamedResource name="angular-animate.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular/angular-animate.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular\angular-animate.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular-animate.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular/angular-animate.min.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular\angular-animate.min.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular-resource.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular/angular-resource.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular\angular-resource.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular-resource.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular/angular-resource.min.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular\angular-resource.min.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular-sanitize.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular/angular-sanitize.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular\angular-sanitize.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular-sanitize.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular/angular-sanitize.min.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular\angular-sanitize.min.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular/angular.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular\angular.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular/angular.min.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular\angular.min.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+							<ResourceMapSubtree name="angular-ui">
+								<NamedResource name="angular-ui-router.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular-ui/angular-ui-router.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular-ui\angular-ui-router.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="angular-ui-router.min.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/js/angular-ui/angular-ui-router.min.js">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\js\angular-ui\angular-ui-router.min.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="scss">
+							<NamedResource name="ionic.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/ionic.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\ionic.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_action-sheet.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_action-sheet.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_action-sheet.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_animations.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_animations.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_animations.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_backdrop.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_backdrop.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_backdrop.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_badge.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_badge.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_badge.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_bar.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_bar.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_bar.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_button-bar.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_button-bar.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_button-bar.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_button.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_button.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_button.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_checkbox.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_checkbox.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_checkbox.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_form.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_form.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_form.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_grid.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_grid.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_grid.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_items.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_items.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_items.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_list.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_list.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_list.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_loaders.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_loaders.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_loaders.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_loading.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_loading.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_loading.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_menu.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_menu.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_menu.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_mixins.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_mixins.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_mixins.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_modal.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_modal.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_modal.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_platform.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_platform.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_platform.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_popover.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_popover.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_popover.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_popup.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_popup.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_popup.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_progress.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_progress.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_progress.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_radio.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_radio.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_radio.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_range.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_range.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_range.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_refresher.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_refresher.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_refresher.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_reset.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_reset.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_reset.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_scaffolding.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_scaffolding.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_scaffolding.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_select.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_select.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_select.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_slide-box.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_slide-box.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_slide-box.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_spinner.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_spinner.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_spinner.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_split-pane.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_split-pane.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_split-pane.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_tabs.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_tabs.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_tabs.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_toggle.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_toggle.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_toggle.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_transitions.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_transitions.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_transitions.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_type.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_type.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_type.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_util.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_util.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_util.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="_variables.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/_variables.scss">
+								<Candidate type="Path">
+									<Value>www\lib\ionic\scss\_variables.scss</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="ionicons">
+								<NamedResource name="ionicons.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/ionicons/ionicons.scss">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\scss\ionicons\ionicons.scss</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="_ionicons-animation.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/ionicons/_ionicons-animation.scss">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\scss\ionicons\_ionicons-animation.scss</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="_ionicons-font.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/ionicons/_ionicons-font.scss">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\scss\ionicons\_ionicons-font.scss</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="_ionicons-icons.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/ionicons/_ionicons-icons.scss">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\scss\ionicons\_ionicons-icons.scss</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="_ionicons-variables.scss" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/lib/ionic/scss/ionicons/_ionicons-variables.scss">
+									<Candidate type="Path">
+										<Value>www\lib\ionic\scss\ionicons\_ionicons-variables.scss</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="plugins">
+					<ResourceMapSubtree name="com.ionic.keyboard">
+						<ResourceMapSubtree name="www">
+							<NamedResource name="keyboard.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/plugins/com.ionic.keyboard/www/keyboard.js">
+								<Candidate type="Path">
+									<Value>www\plugins\com.ionic.keyboard\www\keyboard.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="cordova-plugin-console">
+						<ResourceMapSubtree name="www">
+							<NamedResource name="console-via-logger.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/plugins/cordova-plugin-console/www/console-via-logger.js">
+								<Candidate type="Path">
+									<Value>www\plugins\cordova-plugin-console\www\console-via-logger.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="logger.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/plugins/cordova-plugin-console/www/logger.js">
+								<Candidate type="Path">
+									<Value>www\plugins\cordova-plugin-console\www\logger.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="cordova-plugin-device">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows">
+								<NamedResource name="DeviceProxy.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/plugins/cordova-plugin-device/src/windows/DeviceProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="device.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/plugins/cordova-plugin-device/www/device.js">
+								<Candidate type="Path">
+									<Value>www\plugins\cordova-plugin-device\www\device.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="cordova-plugin-splashscreen">
+						<ResourceMapSubtree name="www">
+							<NamedResource name="splashscreen.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js">
+								<Candidate type="Path">
+									<Value>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="windows">
+								<NamedResource name="SplashScreenProxy.js" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="templates">
+					<NamedResource name="browse.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/browse.html">
+						<Candidate type="Path">
+							<Value>www\templates\browse.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="details.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/details.html">
+						<Candidate type="Path">
+							<Value>www\templates\details.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="googleMap.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/googleMap.html">
+						<Candidate type="Path">
+							<Value>www\templates\googleMap.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/home.html">
+						<Candidate type="Path">
+							<Value>www\templates\home.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="listOfDeals.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/listOfDeals.html">
+						<Candidate type="Path">
+							<Value>www\templates\listOfDeals.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="location.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/location.html">
+						<Candidate type="Path">
+							<Value>www\templates\location.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="login.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/login.html">
+						<Candidate type="Path">
+							<Value>www\templates\login.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="menu.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/menu.html">
+						<Candidate type="Path">
+							<Value>www\templates\menu.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="playlist.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/playlist.html">
+						<Candidate type="Path">
+							<Value>www\templates\playlist.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="playlists.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/playlists.html">
+						<Candidate type="Path">
+							<Value>www\templates\playlists.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="search.html" uri="ms-resource://com.ionicframework.azoobazoo980439/Files/www/templates/search.html">
+						<Candidate type="Path">
+							<Value>www\templates\search.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,1 @@
+C:\Piyush\Ionic\azoobazoo\platforms\windows\CordovaApp.Windows.jsproj;neutral

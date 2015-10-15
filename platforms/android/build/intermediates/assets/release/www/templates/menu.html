@@ -1,0 +1,61 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-calm">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+      
+      
+     <div id="subheaderLocation" ng-if="$state.current.name != 'app.details' && $state.current.name != 'app.contactus' && $state.current.name != 'app.googlemap'" class="bar bar-subheader bar-dark">
+      <a class="button button-clear" ng-click="chooseLocation()"><i style="font-size:14px" class="ion-ios-location light"></i><span style="color:white;font-size:14px;"> {{savedLocation}}</span>&nbsp;<i style="font-size:14px" class="ion-arrow-down-b light"></i></a>
+       <span style="float:right; margin-top:6px">
+        <span class="light" style="font-size:14px; margin-right:3px;"> Deals: </span>
+        <select ng-show="$state.current.name == 'app.home'" ng-change="syncLocalStorage(true);" style="border:none;" ng-model="fields.homeDealFilter" convert-to-number style="font-size:14px;">
+          <option value="0">Local</option>
+          <option value="1">National</option>
+        </select> 
+         <select ng-show="$state.current.name == 'app.myperfects'" ng-change="syncLocalStorage(true);" style="border:none;" ng-model="fields.myPerfectsDealFilter" convert-to-number style="font-size:14px;">
+          <option value="0">Local</option>
+          <option value="1">National</option>
+        </select>    
+      </span>
+    </div>
+    <div ng-if="$state.current.name == 'app.details'" class="bar bar-subheader bar-dark" style="padding-top:10px;">
+     <div style="width:100%; text-align:left; text-transform: uppercase;">  {{adExpiredate}} </div>
+    </div>
+    </ion-nav-bar>
+    <div ng-if="$state.current.name != 'app.googlemap' && $state.current.name != 'app.contactus'" style="height:43px;">
+    </div>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-dark">
+      <span></span>
+    </ion-header-bar>
+    <ion-content style="background-color:black;">
+      <ion-list>
+        <div style="text-align:center; width:100%;">
+          <img src="img/login_withlogo.png" style="width:40%; margin:auto;" />
+        </div>
+         <div style="text-align:center; width:100%;">
+          <img src="img/title_merged_orange.png" style="width:70%; margin:auto;" />
+        </div>
+       
+        <ion-item menu-close class="item-dark" href="#/app/home">
+           <i class="icon ion-home"></i> Home
+        </ion-item>
+         <ion-item class="item-dark" menu-close href="#/app/myperfects">
+          <img src='img/perfect-in-gray.png' style="width:22px;position:relative; top:2px; left:-5px;"></img>
+          <span style="position:relative; left:-9px;">My Perfects</span>
+        </ion-item>
+        <ion-item class="item-dark" menu-close href="#/app/contactus">
+          <i class="icon ion-ios-compose-outline"></i> Contact Us
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

@@ -1,0 +1,17 @@
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\debug\anycpu\resources.pri
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\debug\anycpu\CordovaApp.Windows.build.appxrecipe
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\priconfig.xml
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\layout.resfiles
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\resources.resfiles
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\pri.resfiles
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\qualifiers.txt
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\resources.pri.xml
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+C:\Piyush\Ionic\azoobazoo\platforms\windows\build\windows\bld\package.map.txt

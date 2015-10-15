@@ -1,0 +1,28 @@
+﻿<ion-view>
+<ion-nav-title>
+      <span style="margin-right:30px;">My Perfects</span>
+    </ion-nav-title>
+  <ion-content ng-style="data.reccount > 0 && {'background-color':'whitesmoke'} || {'background-color': 'white'}">
+
+	 <div class="list" ng-if="(data.reccount <= 0 || (data.reccount == undefined && data != undefined)) && isOffline == false">
+		<p class="padding" ng-show="fields.myPerfectsDealFilter == 0" style="text-align:center;"> 
+		<img src="img/oops-mistakes.jpg" style="width:100%;" />
+			No ads liked by you! <br/> 
+			Click (<img src='img/perfect-in-gray.png' style="width:16px;position:relative; top:1px;"></img>) to mark the deals you like as favorites and view them later.
+		</p>
+		<p class="padding" ng-show="fields.myPerfectsDealFilter == 1" style="text-align:center;">
+		<img src="img/oops-mistakes.jpg" style="width:100%;" />
+			We couldn't find any national deals liked by you! <br/> Click (<img src='img/perfect-in-gray.png' style="width:16px;position:relative; top:1px;"></img>) to mark the deals you like as favourites and view them later.
+		 </p>
+	</div>
+   	<div class="list" ng-if="data.reccount>0 && isOffline == false">
+		<cards-list></cards-list>
+		<ion-infinite-scroll on-infinite="loadResults()" ng-if="moreDataCanBeLoaded()" distance="1%" immediate-check="false"></ion-infinite-scroll> 
+	</div>
+	<div class="list padding" style="text-align:center;" ng-if="isOffline == true">
+       <img src="img/oops-mistakes.jpg" style="width:100%;" />
+       Network connection unavailable! Our app requires a data connection. Please check your network settings! </p>
+  	</div>
+	<div style="height:30px" />
+   </ion-content>
+</ion-view>
